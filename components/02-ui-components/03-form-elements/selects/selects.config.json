@@ -1,0 +1,114 @@
+{
+    "preview": "@preview-left-aligned",
+    "title": "Select Dropdown",
+    "context": {
+        "label": {
+            "id": "select_states_label_7",
+            "for": "select_states_select_7",
+            "class": "label--above",
+            "text": "Default",
+            "optional": true
+        },
+        "select": {
+            "name": "select_states_select_7",
+            "id": "select_states_select_7",
+            "class": "",
+            "placeholder": "Placeholder text",
+            "aria": {
+                "describedby": "select_states_select_7_help"
+            },
+            "validation": {
+                "required": true
+            }
+        },
+        "help": {
+            "text": "With help text. <a href=\"#\" title=\"See more detail\">See more detail</a>",
+            "id": "select_states_select_7_help"
+        }
+    },
+    "variants": [
+        {
+            "name": "Success state",
+            "context": {
+                "label": {
+                    "id": "select_states_label_5",
+                    "for": "select_states_select_5",
+                    "class": "label--above",
+                    "text": "Success"
+                },
+                "select": {
+                    "name": "select_states_select_5",
+                    "id": "select_states_select_5",
+                    "class": " success",
+                    "placeholder": "Placeholder text",
+                    "validation": {
+                        "required": true
+                    }
+                },
+                "help": {
+                    "text": "With help text. <a href=\"#\" title=\"See more detail\">See more detail</a>",
+                    "id": "select_states_select_5_help"
+                }
+            }
+        },
+        {
+            "name": "Error state",
+            "context": {
+                "label": {
+                    "id": "select_states_label_4",
+                    "for": "select_states_select_4",
+                    "class": "label--above",
+                    "text": "Error"
+                },
+                "select": {
+                    "name": "select_states_select_4",
+                    "id": "select_states_select_4",
+                    "class": " error",
+                    "placeholder": "Placeholder text",
+                    "aria": {
+                        "error": "select_states_select_4_error",
+                        "invalid": true
+                    },
+                    "validation": {
+                        "required": true
+                    }
+                },
+                "error": {
+                    "text": "Error message",
+                    "id": "select_states_select_4_error"
+                },
+                "help": {
+                    "text": "With help text. <a href=\"#\" title=\"See more detail\">See more detail</a>",
+                    "id": "select_states_select_4_help"
+                }
+            }
+        },
+        {
+            "name": "Disabled",
+            "context": {
+                "label": {
+                    "id": "select_states_label_6",
+                    "for": "select_states_select_6",
+                    "class": "label--above label--disabled",
+                    "text": "Disabled"
+                },
+                "select": {
+                    "name": "select_states_select_6",
+                    "id": "select_states_select_6",
+                    "class": " disabled",
+                    "placeholder": "Placeholder text",
+                    "aria": {
+                        "disabled": true
+                    },
+                    "validation": {
+                        "required": true
+                    }
+                },
+                "help": {
+                    "text": "With help text. <a href=\"#\" title=\"See more detail\">See more detail</a>",
+                    "id": "select_states_select_6_help"
+                }
+            }
+        }
+    ]
+}

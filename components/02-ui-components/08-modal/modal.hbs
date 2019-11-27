@@ -1,0 +1,22 @@
+
+<a href="#" class="modal-link" data-modal="{{modalLink.modalId}}" aria-controls="{{modalLink.modalId}}" data-module="TWModal" {{#if modalSettings}}data-modal-settings="{ {{#each modalSettings}}&quot;{{@key}}&quot;: &quot;{{this}}&quot;{{#unless @last}},{{/unless}}{{/each}} }"{{/if}} />{{modalLink.text}}</a>
+
+<section id="{{modalSettings.id}}" class="modal modal--closed" role="dialog" aria-modal="true" aria-labelledby="{{modalSettings.titleId}}" draggable="true">
+    <a href="#" class="modal__mobile-draggable" ></a>
+    <a href="#" class="modal__close" aria-label="Close" role="button" >
+        <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <title>Close</title>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.7076 3.29289C4.31707 2.90237 3.68391 2.90237 3.29338 3.29289C2.90286 3.68342 2.90286 4.31658 3.29338 4.70711L10.5858 11.9995L3.29289 19.2924C2.90237 19.6829 2.90237 20.3161 3.29289 20.7066C3.68342 21.0972 4.31658 21.0972 4.70711 20.7066L12 13.4137L19.2929 20.7066C19.6834 21.0972 20.3166 21.0972 20.7071 20.7066C21.0976 20.3161 21.0976 19.6829 20.7071 19.2924L13.4142 11.9995L20.7066 4.70711C21.0972 4.31658 21.0972 3.68342 20.7066 3.29289C20.3161 2.90237 19.6829 2.90237 19.2924 3.29289L12 10.5853L4.7076 3.29289Z" fill="currentColor"/>
+        </svg>
+    </a>
+    <div class="modal__content">
+        <div class="row">
+            <div class="columns small-12">
+                <h2 class="modal__title" id="{{modalSettings.titleId}}">{{modalSettings.titleText}}</h2>
+            </div>
+            <div class="columns small-12">
+                <p>Modal content...</p>
+            </div>
+        </div>
+    </div>
+</section>

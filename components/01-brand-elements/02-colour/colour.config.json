@@ -1,0 +1,144 @@
+{
+    "title": "Colours",
+    "name": "Colours",
+    "variants": [
+        {
+            "label": "Primary",
+            "name": "default",
+            "notes": "<p>Our Digital Colour Palette is based on the Thames Water Brand colours.</p><h5>Primary colours</h5><p>Our most important colour, Thames blue is used to introduce and to lead readers through content. We strive to always have it within a page or application.</p><p>Thames Green and Thames Orange can either be used as supporting colours or a way to highlight elements.</p><p><em><strong>Note:</strong> See accessibility to view the guidelines on what colour combinations can be used to be compliant with WCAG 2.1.</em></p>",
+            "context": {
+                "colours": [
+                    {
+                        "name": "Thames Blue",
+                        "colour": "#009FDF",
+                        "class": "color-thames-blue"
+                    },
+                    {
+                        "name": "Thames Green",
+                        "colour": "#7FBA00",
+                        "class": "color-thames-green"
+                    },
+                    {
+                        "name": "Thames Orange",
+                        "colour": "#F07D28",
+                        "class": "color-thames-orange"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Secondary",
+            "notes": "<p>Our Digital Colour Palette is based on the Thames Water Brand colours.</p><h5>Secondary colours</h5><p>Our secondary colours are light and dark variants of our Primary colours.</p><p>Our secondary palette has been developed for use in strictly limited applications that include illustration, charts and graphs, and light background tints. Use within illustrations to add light and shade to help create form.</p><p>Use green, orange and red for traffic light systems in data visualisations.</p><p>Use light shades for background tints to separate or highlight content. Our secondary palette should only be used in small amounts and should never exceed 10% of any one piece of communication.</p><p><em><strong>Note:</strong> See accessibility to view the guidelines on what colour combinations can be used to be compliant with WCAG 2.1.</em></p>",
+            "context": {
+                "colours": [
+                    {
+                        "name": "Light Blue",
+                        "colour": "#4CC2F1",
+                        "class": "color-light-blue"
+                    },
+                    {
+                        "name": "Dark Blue",
+                        "colour": "#007FB2",
+                        "class": "color-dark-blue"
+                    },
+                    {
+                        "name": "Light Green",
+                        "colour": "#BAD80A",
+                        "class": "color-light-green"
+                    },
+                    {
+                        "name": "Dark Green",
+                        "colour": "#598300",
+                        "class": "color-dark-green"
+                    },
+                    {
+                        "name": "Light Orange",
+                        "colour": "#FFB900",
+                        "class": "color-light-orange"
+                    },
+                    {
+                        "name": "Dark Orange",
+                        "colour": "#D1610E",
+                        "class": "color-dark-orange"
+                    },
+                    {
+                        "name": "Thames Red",
+                        "colour": "#E84423",
+                        "class": "color-thames-red"
+                    },
+                    {
+                        "name": "Dark Red",
+                        "colour": "#B02C12",
+                        "class": "color-dark-red"
+                    },
+                    {
+                        "name": "Navy",
+                        "colour": "#062B52",
+                        "class": "color-navy"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Mono",
+            "notes": "<p>Our Digital Colour Palette is based on the Thames Water Brand colours.</p><h5>Mono colours</h5><p>Our mono colours gives us flexibility to make add hierarchy, contrast and legibility in our page layouts.</p><p>White is used as a background colour to provide breathing space, clarity and freshness to our communications, or as text colour on Thames blue backgrounds.</p><p>Use dark grey for all body copy. Where legibility becomes an issue, use black.</p><p><em><strong>Note:</strong> See accessibility to view the guidelines on what colour combinations can be used to be compliant with WCAG 2.1.</em></p>",
+            "context": {
+                "colours": [
+                    {
+                        "name": "Black",
+                        "colour": "#000000",
+                        "class": "color-black"
+                    },
+                    {
+                        "name": "Dark Grey",
+                        "colour": "#333F48",
+                        "class": "color-dark-grey"
+                    },
+                    {
+                        "name": "Boulder",
+                        "colour": "#767676",
+                        "class": "color-boulder"
+                    },
+                    {
+                        "name": "Grey",
+                        "colour": "#B2B2B2",
+                        "class": "color-grey"
+                    },
+                    {
+                        "name": "Cloud",
+                        "colour": "#E5E5E5",
+                        "class": "color-cloud"
+                    },
+                    {
+                        "name": "Alabaster",
+                        "colour": "#F8F8F8",
+                        "class": "color-alabaster"
+                    },
+                    {
+                        "name": "White",
+                        "colour": "#FFFFFF",
+                        "class": "color-white"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Gradients",
+            "notes": "<p>Our Digital Colour Palette is based on the Thames Water Brand colours.</p><p><em><strong>Note:</strong> See accessibility to view the guidelines on what colour combinations can be used to be compliant with WCAG 2.1.</em></p>",
+            "context": {
+                "colours": [
+                    {
+                        "name": "Blue",
+                        "colour": "#009EDE to #4CC2F1",
+                        "class": "gradient-blue"
+                    },
+                    {
+                        "name": "Dark Blue",
+                        "colour": "#006E9B to #009EDE",
+                        "class": "gradient-dark-blue"
+                    }
+                ]
+            }
+        }
+    ]
+}

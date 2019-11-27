@@ -1,0 +1,16 @@
+<!--
+    NOTE: any pl__ classes are not for production, these are pattern libraray
+    specific classes.
+-->
+<div class="row pl__pictograms">
+    {{#each pictogram}}
+    <div class="columns small-12 medium-6 large-3 pl__spacer--m">
+
+        <!-- {{title}} -->
+        {{{html}}}
+        <!-- / {{title}} -->
+
+        <span>{{title}}</span>
+    </div>
+    {{/each}}
+</div>

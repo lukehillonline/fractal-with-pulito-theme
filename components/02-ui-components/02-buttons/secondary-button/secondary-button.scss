@@ -1,0 +1,32 @@
+@import '../../../../scss/00-foundation/settings';
+@import 'node_modules/foundation-sites/scss/util/util';
+@import '../../../../scss/01-settings/_import';
+@import '../../../../scss/02-tools/_import';
+
+.button {
+    @extend %button;
+
+    &.button--icon-left {
+        .icon {
+            left: rem(26);
+        }
+    }
+
+    &.button--icon-right {
+        .icon {
+            right: rem(26);
+        }
+    }
+
+    .icon {
+        height: rem(24);
+        line-height: 1;
+        position: absolute;
+        top: rem(12);
+        width: rem(24);
+    }
+}
+
+.button--secondary {
+    @include button-secondary($color-secondary, $color-white, $color-secondary-dark);
+}

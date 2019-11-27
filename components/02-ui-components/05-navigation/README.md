@@ -1,0 +1,1 @@
+Our slim navigation bar is a stripped back, slim version of our full navigation bar and is only used within sections of the website that don’t require the full navigation. On the slim navigation, the logo is clickable and takes you back to the home page of the website allowing the user to exit the journey they are on.

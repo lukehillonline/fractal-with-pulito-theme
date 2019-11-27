@@ -1,0 +1,55 @@
+.site-header{
+  background:linear-gradient(241.31deg, #4cc2f1 .52%, #009ede 49.67%);
+  position:relative;
+}
+
+.site-header--simple{
+  height:3.375rem;
+}
+
+.site-header__logo{
+  background:linear-gradient(241.31deg, #4cc2f1 .52%, #009ede 49.67%);
+  background-attachment:fixed;
+  background-size:100% 3.375rem;
+  border:none;
+  border-radius:4.125rem;
+  height:4.125rem;
+  left:50%;
+  padding:.375rem;
+  position:absolute;
+  transform:translateX(-50%);
+  width:4.125rem;
+  z-index:300;
+}
+
+.site-header__logo.is-hover,.site-header__logo.is-visited,.site-header__logo:active,.site-header__logo:focus,.site-header__logo:hover,.site-header__logo:visited{
+  border:none;
+}
+
+.site-header__logo svg{
+  height:100%;
+  width:100%;
+}
+
+.site-header__arrow-previous{
+  border:0;
+  float:left;
+  height:3.375rem;
+  margin-left:-.9375rem;
+  padding:.9375rem;
+  transform:rotate(-90deg);
+  width:3.375rem;
+}
+
+.site-header__arrow-previous:active,.site-header__arrow-previous:focus,.site-header__arrow-previous:hover,.site-header__arrow-previous:visited{
+  border:0;
+}
+
+.site-header__arrow-previous svg{
+  color:#fff;
+  height:100%;
+  width:100%;
+}
+
+
+/*# sourceMappingURL=navigation.css.map*/

@@ -1,0 +1,102 @@
+{
+    "preview": "@preview-left-aligned",
+    "title": "Textareas",
+    "context": {
+        "label": {
+            "id": "textarea_states_label_7",
+            "for": "textarea_states_textarea_7",
+            "class": "label--above",
+            "text": "Default",
+            "optional": true
+        },
+        "textarea": {
+            "name": "textarea_states_textarea_7",
+            "id": "textarea_states_textarea_7",
+            "class": "",
+            "placeholder": "Placeholder text",
+            "aria": {
+                "describedby": "textarea_states_textarea_7_help"
+            },
+            "validation": {
+                "required": true
+            }
+        },
+        "help": {
+            "text": "With help text. <a href=\"#\" title=\"See more detail\">See more detail</a>",
+            "id": "textarea_states_textarea_7_help"
+        }
+    },
+    "variants": [
+        {
+            "name": "Success State",
+            "context": {
+                "label": {
+                    "id": "textarea_states_label_5",
+                    "for": "textarea_states_textarea_5",
+                    "class": "label--above",
+                    "text": "Success"
+                },
+                "textarea": {
+                    "name": "textarea_states_textarea_5",
+                    "id": "textarea_states_textarea_5",
+                    "class": " success",
+                    "placeholder": "Placeholder text",
+                    "validation": {
+                        "required": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "Error State",
+            "context": {
+                "label": {
+                    "id": "textarea_states_label_4",
+                    "for": "textarea_states_textarea_4",
+                    "class": "label--above",
+                    "text": "Error"
+                },
+                "textarea": {
+                    "name": "textarea_states_textarea_4",
+                    "id": "textarea_states_textarea_4",
+                    "class": " error",
+                    "placeholder": "Placeholder text",
+                    "aria": {
+                        "error": "textarea_states_textarea_4_error",
+                        "invalid": true
+                    },
+                    "validation": {
+                        "required": true
+                    }
+                },
+                "error": {
+                    "text": "Error message",
+                    "id": "textarea_states_textarea_4_error"
+                }
+            }
+        },
+        {
+            "name": "Disabled",
+            "context": {
+                "label": {
+                    "id": "textarea_states_label_6",
+                    "for": "textarea_states_textarea_6",
+                    "class": "label--above label--disabled",
+                    "text": "Disabled"
+                },
+                "textarea": {
+                    "name": "textarea_states_textarea_6",
+                    "id": "textarea_states_textarea_6",
+                    "class": " disabled",
+                    "placeholder": "Placeholder text",
+                    "aria": {
+                        "disabled": true
+                    },
+                    "validation": {
+                        "required": true
+                    }
+                }
+            }
+        }
+    ]
+}

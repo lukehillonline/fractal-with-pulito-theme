@@ -1,0 +1,47 @@
+{
+    "title": "Information Panel",
+    "preview": "@preview-left-aligned",
+    "variants": [
+        {
+            "label": "Information",
+            "name": "default",
+            "notes": "<p>Information panels can be used to highlight messages to users.</p><p>This in the information variant which should be used to tell users some general information about the content they are interacting with.</p>",
+            "context": {
+                "title": "Information Panel - Information",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+                "type": "info",
+                "icon": "<svg class=\"icon\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><title>Info</title><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12ZM12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM12 9C12.5523 9 13 9.44771 13 10V17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17V10C11 9.44771 11.4477 9 12 9ZM12 8C12.5523 8 13 7.55228 13 7C13 6.44772 12.5523 6 12 6C11.4477 6 11 6.44772 11 7C11 7.55228 11.4477 8 12 8Z\" fill=\"currentColor\"/></svg>"
+            }
+        },
+        {
+            "name": "Success",
+            "notes": "<p>Information panels can be used to highlight messages to users.</p><p>This in the success variant which should be used to inform users that an action taken has been completed successfully.</p>",
+            "context": {
+                "title": "Information Panel - Success",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+                "type": "success",
+                "icon": "<svg class=\"icon\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><title>Success</title><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0ZM2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12ZM17.7086 9.70557C18.0983 9.3142 18.0969 8.68104 17.7056 8.29136C17.3142 7.90168 16.681 7.90306 16.2914 8.29443L10.0014 14.6117L7.67865 12.4655C7.27301 12.0907 6.64034 12.1157 6.26553 12.5214C5.89073 12.927 5.91572 13.5597 6.32135 13.9345L9.35166 16.7345C9.74663 17.0994 10.3595 17.0867 10.7389 16.7056L17.7086 9.70557Z\" fill=\"currentColor\"/></svg>"
+            }
+        },
+        {
+            "name": "Warning",
+            "notes": "<p>Information panels can be used to highlight messages to users.</p><p>This in the Warning variant which should be used to tell users important information that may affect then.</p>",
+            "context": {
+                "title": "Information Panel - Warning",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+                "type": "warning",
+                "icon": "<svg class=\"icon\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><title>Warning</title><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12.0003 1C12.7148 1 13.3751 1.3812 13.7324 2L23.6917 19.25C24.0489 19.8688 24.0489 20.6312 23.6917 21.25C23.3344 21.8688 22.6741 22.25 21.9596 22.25H2.04102C1.32648 22.25 0.66623 21.8688 0.308965 21.25C-0.0483008 20.6312 -0.0483007 19.8688 0.308965 19.25L10.2683 2C10.6255 1.3812 11.2858 1 12.0003 1ZM12.0003 3L2.04102 20.25H21.9596L12.0003 3Z\" fill=\"currentColor\"/><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 15C11.4477 15 11 14.5523 11 14L11 9C11 8.44772 11.4477 8 12 8C12.5523 8 13 8.44772 13 9L13 14C13 14.5523 12.5523 15 12 15Z\" fill=\"currentColor\"/><circle cx=\"12\" cy=\"17\" r=\"1\" transform=\"rotate(-180 12 17)\" fill=\"currentColor\"/></svg>"
+            }
+        },
+        {
+            "name": "Error",
+            "notes": "<p>Information panels can be used to highlight messages to users.</p><p>This in the error variant which should be used to tell users when something has gone wrong or for important information that has a negative impoact to the user.</p>",
+            "context": {
+                "title": "Information Panel - Error",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+                "type": "error",
+                "icon": "<svg class=\"icon\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><title>Error</title><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12ZM12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM7.29289 16.7066C6.90237 16.3161 6.90237 15.6829 7.29289 15.2924L10.5855 11.9998L7.29338 8.70761C6.90286 8.31708 6.90286 7.68392 7.29338 7.29339C7.68391 6.90287 8.31707 6.90287 8.70759 7.29339L11.9997 10.5855L15.2925 7.29283C15.683 6.90231 16.3162 6.90231 16.7067 7.29283C17.0972 7.68336 17.0972 8.31652 16.7067 8.70705L13.414 11.9998L16.7072 15.293C17.0977 15.6835 17.0977 16.3167 16.7072 16.7072C16.3166 17.0977 15.6835 17.0977 15.293 16.7072L11.9997 13.414L8.70711 16.7066C8.31658 17.0971 7.68342 17.0971 7.29289 16.7066Z\" fill=\"currentColor\"/></svg>"
+            }
+        }
+    ]
+}

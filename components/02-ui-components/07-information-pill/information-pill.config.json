@@ -1,0 +1,7 @@
+{
+    "title": "Information Pill",
+    "preview": "@preview",
+    "context": {
+        "content": "Instructions on how to use something"
+    }
+}

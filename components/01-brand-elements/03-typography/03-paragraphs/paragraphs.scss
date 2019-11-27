@@ -1,0 +1,31 @@
+@import '../../../../scss/00-foundation/settings';
+@import 'node_modules/foundation-sites/scss/util/util';
+@import '../../../../scss/01-settings/_import';
+@import '../../../../scss/02-tools/_import';
+
+::selection {
+    background: $color-primary; // WebKit/Blink Browsers */
+    color: map-get($colors, 'white');
+}
+
+p {
+    @extend %p--body;
+
+    margin: 0;
+}
+
+.p--tint {
+    color: $color-secondary;
+}
+
+.p--lead {
+    @extend %p--lead;
+}
+
+.p--small {
+    @extend %p--small;
+}
+
+.p--x-small {
+    @extend %p--x-small;
+}

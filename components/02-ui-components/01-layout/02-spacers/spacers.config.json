@@ -1,0 +1,23 @@
+{
+    "title": "Spacers",
+    "context": {
+        "spacers": [
+            {
+                "name": "spacer-s",
+                "height": 18
+            },
+            {
+                "name": "spacer-m",
+                "height": 36
+            },
+            {
+                "name": "spacer-l",
+                "height": 72
+            },
+            {
+                "name": "spacer-xl",
+                "height": 144
+            }
+        ]
+    }
+}

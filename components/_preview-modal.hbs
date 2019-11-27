@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    {{> @meta }}
+
+</head>
+<body>
+
+    <div class="Preview-position">
+        <div class="grid-container">
+            <div class="pl__spacer--l"></div>
+            <div class="pl__spacer--l"></div>
+            <div class="pl__spacer--l"></div>
+            <div class="pl__spacer--l"></div>
+            {{{ yield }}}
+            <div class="pl__spacer--l"></div>
+            <div class="pl__spacer--l"></div>
+            <div class="pl__spacer--l"></div>
+            <div class="pl__spacer--l"></div>
+        </div>
+    </div>
+
+    <script src="{{ path '/scripts/app.js' }}"></script>
+
+</body>
+</html>

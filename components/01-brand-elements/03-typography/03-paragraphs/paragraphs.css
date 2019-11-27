@@ -1,0 +1,58 @@
+.p--lead{
+  font-size:1.375rem;
+  line-height:1.27273;
+}
+
+.p--lead,p{
+  font-family:FS Albert,Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-weight:400;
+}
+
+p{
+  color:#333f48;
+  font-size:1rem;
+  line-height:1.375;
+}
+
+@media print,screen and (min-width:64em){
+  p{
+    font-size:1.125rem;
+    line-height:1.33333;
+  }
+}
+
+.p--small{
+  font-size:.875rem;
+  line-height:1.28571;
+}
+
+.p--small,.p--x-small{
+  font-family:FS Albert,Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-weight:400;
+}
+
+.p--x-small{
+  font-size:.75rem;
+  line-height:1.33333;
+}
+
+::-moz-selection{
+  background:#009ede;
+  color:#fff;
+}
+
+::selection{
+  background:#009ede;
+  color:#fff;
+}
+
+p{
+  margin:0;
+}
+
+.p--tint{
+  color:#70a400;
+}
+
+
+/*# sourceMappingURL=paragraphs.css.map*/

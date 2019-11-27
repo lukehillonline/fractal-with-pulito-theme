@@ -1,0 +1,81 @@
+@import '../../../../scss/00-foundation/settings';
+@import 'node_modules/foundation-sites/scss/util/util';
+@import '../../../../scss/01-settings/_import';
+@import '../../../../scss/02-tools/_import';
+
+.select-wrapper {
+    position: relative;
+
+    .icon {
+        color: $color-primary;
+        height: rem(16);
+        position: absolute;
+        right: rem(18);
+        top: rem(19);
+        transform: rotate(180deg);
+        width: rem(16);
+    }
+
+    &--disabled {
+        cursor: not-allowed;
+
+        .icon {
+            color: $color-grey;
+        }
+    }
+}
+
+.select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: $color-white;
+    border: rem(2) solid $color-cloud;
+    border-radius: rem(6);
+    color: $color-boulder;
+    padding: rem(13) rem(45) rem(13) rem(15);
+    width: 100%;
+
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus,
+    &:-webkit-autofill:active {
+        background-color: $color-white;
+        background-image: none;
+    }
+
+    &:hover,
+    &.is-hovered {
+        color: $color-dark-grey;
+    }
+
+    &:focus,
+    &.is-focused {
+        border-color: $color-primary;
+        color: $color-dark-grey;
+        outline: 0;
+    }
+
+    &.error {
+        border-color: $color-quaternary;
+    }
+
+    &.success {
+        border-color: $color-secondary-light;
+    }
+
+    &.disabled,
+    &.disabled:hover,
+    &.disabled:focus {
+        background-color: $color-alabaster;
+        border-color: $color-cloud;
+        color: $color-boulder;
+        cursor: not-allowed;
+    }
+
+    // CAUTION: IE hackery
+    &::-ms-expand {
+        // remove default arrow in IE 10 and 11
+        display: none;
+    }
+}

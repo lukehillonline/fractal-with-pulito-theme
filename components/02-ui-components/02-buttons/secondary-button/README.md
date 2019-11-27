@@ -1,0 +1,1 @@
+The transparent secondary button with a thin frame is used for subordinate actions.

@@ -1,0 +1,24 @@
+<div class="row">
+    <div class="columns small-12">
+        <fieldset class="fieldset spacer-m" aria-describedby="help-fieldset_1">
+            <legend class="legend spacer-s">{{fieldset.text}}{{#if fieldset.optional}}<small class="label-indicator">(Optional)</small>{{/if}}</legend>
+            <div class="row">
+                <div class="columns small-12 spacer-s">
+                    <label for="{{label.for}}" class="label {{label.class}}">
+                        <input type="radio" class="radio {{radio.class}} {{modifier}}" id="{{radio.id}}" name="{{radio.name}}" value="{{radio.value}}" {{#if radio.checked}} aria-checked="true" checked{{/if}}{{#if radio.aria.describedby}} aria-describedby="{{radio.aria.describedby}}"{{/if}}{{#if radio.aria.error}} aria-error="{{radio.aria.error}}"{{/if}}{{#if radio.aria.invalid}} aria-invalid="true"{{/if}}{{#if radio.aria.disabled}} aria-disabled="true" disabled{{/if}}{{#if radio.validation.required}} aria-required="true" required{{/if}}{{#if radio.validation.requiredMessage}} data-required-message="{{radio.validation.requiredMessage}}"{{/if}}{{#if radio.validation.pattern}} pattern="{{radio.validation.pattern}}"{{/if}}{{#if radio.validation.patternMessage}} data-pattern-message="{{radio.validation.patternMessage}}"{{/if}}{{#if radio.validation.lengthMin}} data-length-min="{{radio.validation.lengthMin}}"{{/if}}{{#if radio.validation.lengthMinMessage}} data-length-min-message="{{radio.validation.lengthMinMessage}}"{{/if}}{{#if radio.validation.lengthMax}} data-length-max="{{radio.validation.lengthMax}}"{{/if}}{{#if radio.validation.lengthMaxMessage}} data-length-max-message="{{radio.validation.lengthMaxMessage}}"{{/if}}{{#if radio.validation.equality}} data-equality="{{radio.validation.equality}}"{{/if}}{{#if radio.validation.equalityMessage}} data-equality-message="{{radio.validation.equalityMessage}}"{{/if}}{{#if radio.validation.typeMessage}} data-type-message="{{radio.validation.typeMessage}}"{{/if}}{{#if noValidate}} novalidate{{/if}}{{#if tabIndex}} tabindex="{{tabIndex}}"{{/if}}/>
+                        <span class="radio-overlay">
+                            <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Selected Radio Button</title><path fill-rule="evenodd" clip-rule="evenodd" d="M12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23Z" fill="currentColor"/></svg>
+                        </span>
+                        {{label.text}}
+                    </label>
+                </div>
+            </div>
+            {{#if error}}
+            <small class="label-indicator label-indicator--error" id="{{error.id}}">{{error.text}}</small>
+            {{/if}}
+            {{#if help}}
+            <small class="label-indicator label-indicator--help" id="{{help.id}}">{{{help.text}}}</small>
+            {{/if}}
+        </fieldset>
+    </div>
+</div>

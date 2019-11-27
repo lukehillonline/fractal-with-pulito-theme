@@ -1,0 +1,94 @@
+{
+    "preview": "@preview-left-aligned",
+    "title": "Checkboxes",
+    "context": {
+        "fieldset": {
+            "text": "Fieldset Title",
+            "optional": true
+        },
+        "label": {
+            "id": "checkbox_states_label_1",
+            "for": "checkbox_states_checkbox_1",
+            "class": "label--inline",
+            "text": "Checkbox label."
+        },
+        "checkbox": {
+            "name": "checkbox_states_checkbox_1",
+            "id": "checkbox_states_checkbox_1"
+        }
+    },
+    "variants": [
+        {
+            "name": "Success State",
+            "context": {
+                "fieldset": {
+                    "text": "Fieldset Title",
+                    "optional": true
+                },
+                "label": {
+                    "id": "checkbox_states_label_9",
+                    "for": "checkbox_states_checkbox_9",
+                    "class": "label--inline",
+                    "text": "Checkbox label"
+                },
+                "checkbox": {
+                    "name": "checkbox_states_checkbox_9",
+                    "id": "checkbox_states_checkbox_9",
+                    "class": " success",
+                    "checked": true
+                }
+            }
+        },
+        {
+            "name": "Error State",
+            "context": {
+                "fieldset": {
+                    "text": "Fieldset Title",
+                    "optional": true
+                },
+                "label": {
+                    "id": "checkbox_states_label_8",
+                    "for": "checkbox_states_checkbox_8",
+                    "class": "label--inline",
+                    "text": "Checkbox label"
+                },
+                "checkbox": {
+                    "name": "checkbox_states_checkbox_8",
+                    "id": "checkbox_states_checkbox_8",
+                    "class": " error",
+                    "aria": {
+                        "error": "checkbox_states_checkbox_8_error",
+                        "invalid": true
+                    }
+                },
+                "error": {
+                    "text": "Error message",
+                    "id": "checkbox_states_checkbox_8_error"
+                }
+            }
+        },
+        {
+            "name": "Disabled",
+            "context": {
+                "fieldset": {
+                    "text": "Fieldset Title",
+                    "optional": true
+                },
+                "label": {
+                    "id": "checkbox_states_label_8",
+                    "for": "checkbox_states_checkbox_8",
+                    "class": "label--inline",
+                    "text": "Checkbox label"
+                },
+                "checkbox": {
+                    "name": "checkbox_states_checkbox_8",
+                    "id": "checkbox_states_checkbox_8",
+                    "class": " checkbox--disabled",
+                    "aria": {
+                        "disabled": true
+                    }
+                }
+            }
+        }
+    ]
+}

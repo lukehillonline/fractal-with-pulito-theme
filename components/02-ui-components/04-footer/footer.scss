@@ -1,0 +1,160 @@
+@import '../../../scss/00-foundation/settings';
+@import 'node_modules/foundation-sites/scss/util/util';
+@import '../../../scss/01-settings/_import';
+@import '../../../scss/02-tools/_import';
+
+.site-footer {
+    background: $color-white;
+    padding: 0;
+    text-align: left;
+
+    p {
+        margin-bottom: rem(15);
+    }
+
+    &__title {
+        margin-bottom: rem(10);
+        margin-top: rem(23);
+    }
+
+    &__logo {
+        display: block;
+        height: rem(35);
+        margin: 0 0 rem(20);
+        width: rem(35);
+    }
+
+    &__nav {
+        &-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        &-item {
+            margin: 0 0 rem(7) 0;
+
+            &::before {
+                content: '';
+                display: none;
+            }
+        }
+
+        &-link {
+            display: inline;
+            font-size: rem(14);
+            font-weight: 600;
+            line-height: rem(18);
+        }
+    }
+
+    &__hr {
+        border: 1px solid $color-cloud;
+        margin: rem(23) 0;
+    }
+
+    &__modal-button {
+        background: $color-white;
+        border: 0;
+        border-radius: rem(15);
+        bottom: rem(12);
+        color: $color-primary-dark;
+        font-size: rem(12);
+        line-height: rem(30);
+        padding: 0 rem(15);
+        position: absolute;
+        right: rem(12);
+
+        &:visited,
+        &:active {
+            border: 0;
+        }
+
+        &:hover,
+        &:focus {
+            border: 0;
+            box-shadow: 0 rem(2) rem(2) rgba(178, 178, 178, 0.25);
+            color: $color-primary;
+        }
+
+        .icon {
+            display: inline-block;
+            float: left;
+            height: rem(14);
+            margin-right: rem(5);
+            margin-top: rem(7);
+            width: rem(12);
+        }
+    }
+
+    &__modal {
+        .modal__close {
+            background: $color-white;
+            border: 1px solid $color-primary-dark;
+            border-radius: rem(15);
+            color: $color-primary-dark;
+            font-size: rem(12);
+            height: auto;
+            line-height: rem(30);
+            padding: 0 rem(15);
+            position: absolute;
+            width: auto;
+
+            &:visited,
+            &:active {
+                background: $color-white;
+                border: 1px solid $color-primary-dark;
+                color: $color-primary-dark;
+            }
+
+            &:hover,
+            &:focus {
+                background: $color-white;
+                border: 1px solid $color-primary;
+                color: $color-primary;
+            }
+
+            .icon {
+                display: inline-block;
+                float: left;
+                height: rem(16);
+                margin-right: rem(5);
+                margin-top: rem(7);
+                width: rem(16);
+            }
+        }
+    }
+
+    @include breakpoint(medium) {
+        p {
+            &.site-footer__vat {
+                margin: rem(39) 0 0;
+            }
+
+            &.site-footer__copyright {
+                line-height: rem(35);
+                text-align: right;
+            }
+        }
+
+        &__nav {
+            &-item {
+                margin: 0 0 rem(6) 0;
+                width: auto;
+            }
+        }
+
+        &__modal-button {
+            bottom: rem(32);
+            right: rem(30);
+        }
+
+        &__modal {
+            .modal__close {
+                bottom: rem(32);
+                right: rem(30);
+                top: auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,266 @@
+{
+    "preview": "@preview",
+    "title": "Image",
+    "variants": [
+        {
+            "label": "Center",
+            "name": "default",
+            "notes": "<p>Our photography tells the story of our people, our operations, our communities and our customers. We use three types of photography: Customers ‘Thames Moments’, our people ‘Here For You’ and our operations ‘Size & Scale’.</p><p>Images have a flexible width depending on the breakpoint. The height is depending on the aspect ratio of the uploaded image.</p><p>All images have a coded rounded corner as brand treatment depending on the position on the page.</p><p>To optimise the loading on images we are using the <code>&lt;picture&gt;</code> element, this allows us to define image sizes for each breakpoint, providing the user the best possible experience.</p><h5>Central Image Sizes</h5><p><strong>Extra Small:</strong> 640px (Screen size 320px and below)<br /><strong>Small:</strong> 1088px (Screen size 543px and below)<br /><strong>Medium:</strong> 938px (Screen size 767px and below)<br /><strong>Large:</strong> 1310px (Screen size 1023px and below)<br /><strong>Extra Large:</strong> 1804px (Screen size 1024px and above)</p>",
+            "context": {
+                "name": "Center",
+                "center": true,
+                "altText": "Alt Text",
+                "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-extra-large.jpg",
+                "placeholderSrc": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-placeholder.jpg",
+                "placeholderMobileSrc": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-placeholder-small.jpg",
+                "sources": [
+                    {
+                        "media": "(max-width: 320px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-extra-small.webp",
+                        "type": "image/webp"
+                    },
+                    {
+                        "media": "(max-width: 320px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-extra-small.jpg",
+                        "type": "image/jpg"
+                    },
+                    {
+                        "media": "(max-width: 543px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-small.webp",
+                        "type": "image/webp"
+                    },
+                    {
+                        "media": "(max-width: 543px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-small.jpg",
+                        "type": "image/jpg"
+                    },
+                    {
+                        "media": "(max-width: 767px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-medium.webp",
+                        "type": "image/webp"
+                    },
+                    {
+                        "media": "(max-width: 767px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-medium.jpg",
+                        "type": "image/jpg"
+                    },
+                    {
+                        "media": "(max-width: 1023px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-large.webp",
+                        "type": "image/webp"
+                    },
+                    {
+                        "media": "(max-width: 1023px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-large.jpg",
+                        "type": "image/jpg"
+                    },
+                    {
+                        "media": "(min-width: 1024px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-extra-large.webp",
+                        "type": "image/webp"
+                    },
+                    {
+                        "media": "(min-width: 1024px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-extra-large.jpg",
+                        "type": "image/jpg"
+                    }
+                ],
+                "caption": "Caption - Water is a transparent nearly colorless chemical substance"
+            }
+        },
+        {
+            "name": "Left",
+            "notes": "<p>Our photography tells the story of our people, our operations, our communities and our customers. We use three types of photography: Customers ‘Thames Moments’, our people ‘Here For You’ and our operations ‘Size & Scale’.</p><p>Images have a flexible width depending on the breakpoint. The height is depending on the aspect ratio of the uploaded image.</p><p>All images have a coded rounded corner as brand treatment depending on the position on the page.</p><p>To optimise the loading on images we are using the <code>&lt;picture&gt;</code> element, this allows us to define image sizes for each breakpoint, providing the user the best possible experience.</p><h5>Left Image Sizes</h5><p><strong>Extra Small:</strong> 640px (Screen size 320px and below)<br /><strong>Small:</strong> 1088px (Screen size 543px and below)<br /><strong>Medium:</strong> 938px (Screen size 767px and below)<br /><strong>Large:</strong> 1310px (Screen size 1023px and below)<br /><strong>Extra Large:</strong> 1804px (Screen size 1024px and above)</p>",
+            "context": {
+                "center": false,
+                "left": true,
+                "altText": "Alt Text",
+                "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-extra-large.jpg",
+                "placeholderSrc": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-placeholder.jpg",
+                "placeholderMobileSrc": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-placeholder-small.jpg",
+                "sources": [
+                    {
+                        "media": "(max-width: 320px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-extra-small.webp",
+                        "type": "image/webp"
+                    },
+                    {
+                        "media": "(max-width: 320px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-extra-small.jpg",
+                        "type": "image/jpg"
+                    },
+                    {
+                        "media": "(max-width: 543px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-small.webp",
+                        "type": "image/webp"
+                    },
+                    {
+                        "media": "(max-width: 543px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-small.jpg",
+                        "type": "image/jpg"
+                    },
+                    {
+                        "media": "(max-width: 767px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-medium.webp",
+                        "type": "image/webp"
+                    },
+                    {
+                        "media": "(max-width: 767px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-medium.jpg",
+                        "type": "image/jpg"
+                    },
+                    {
+                        "media": "(max-width: 1023px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-large.webp",
+                        "type": "image/webp"
+                    },
+                    {
+                        "media": "(max-width: 1023px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-large.jpg",
+                        "type": "image/jpg"
+                    },
+                    {
+                        "media": "(min-width: 1024px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-extra-large.webp",
+                        "type": "image/webp"
+                    },
+                    {
+                        "media": "(min-width: 1024px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-extra-large.jpg",
+                        "type": "image/jpg"
+                    }
+                ],
+                "caption": "Caption - Water is a transparent nearly colorless chemical substance"
+            }
+        },
+        {
+            "name": "Right",
+            "notes": "<p>Our photography tells the story of our people, our operations, our communities and our customers. We use three types of photography: Customers ‘Thames Moments’, our people ‘Here For You’ and our operations ‘Size & Scale’.</p><p>Images have a flexible width depending on the breakpoint. The height is depending on the aspect ratio of the uploaded image.</p><p>All images have a coded rounded corner as brand treatment depending on the position on the page.</p><p>To optimise the loading on images we are using the <code>&lt;picture&gt;</code> element, this allows us to define image sizes for each breakpoint, providing the user the best possible experience.</p><h5>Right Image Sizes</h5><p><strong>Extra Small:</strong> 640px (Screen size 320px and below)<br /><strong>Small:</strong> 1088px (Screen size 543px and below)<br /><strong>Medium:</strong> 938px (Screen size 767px and below)<br /><strong>Large:</strong> 1310px (Screen size 1023px and below)<br /><strong>Extra Large:</strong> 1804px (Screen size 1024px and above)</p>",
+            "context": {
+                "center": false,
+                "right": true,
+                "altText": "Alt Text",
+                "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-extra-large.jpg",
+                "placeholderSrc": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-placeholder.jpg",
+                "placeholderMobileSrc": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-placeholder-small.jpg",
+                "sources": [
+                    {
+                        "media": "(max-width: 320px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-extra-small.webp",
+                        "type": "image/webp"
+                    },
+                    {
+                        "media": "(max-width: 320px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-extra-small.jpg",
+                        "type": "image/jpg"
+                    },
+                    {
+                        "media": "(max-width: 543px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-small.webp",
+                        "type": "image/webp"
+                    },
+                    {
+                        "media": "(max-width: 543px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-small.jpg",
+                        "type": "image/jpg"
+                    },
+                    {
+                        "media": "(max-width: 767px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-medium.webp",
+                        "type": "image/webp"
+                    },
+                    {
+                        "media": "(max-width: 767px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-medium.jpg",
+                        "type": "image/jpg"
+                    },
+                    {
+                        "media": "(max-width: 1023px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-large.webp",
+                        "type": "image/webp"
+                    },
+                    {
+                        "media": "(max-width: 1023px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-large.jpg",
+                        "type": "image/jpg"
+                    },
+                    {
+                        "media": "(min-width: 1024px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-extra-large.webp",
+                        "type": "image/webp"
+                    },
+                    {
+                        "media": "(min-width: 1024px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-extra-large.jpg",
+                        "type": "image/jpg"
+                    }
+                ],
+                "caption": "Caption - Water is a transparent nearly colorless chemical substance"
+            }
+        },
+        {
+            "name": "Full Width",
+            "notes": "<p>Our photography tells the story of our people, our operations, our communities and our customers. We use three types of photography: Customers ‘Thames Moments’, our people ‘Here For You’ and our operations ‘Size & Scale’.</p><p>Images have a flexible width depending on the breakpoint. The height is depending on the aspect ratio of the uploaded image.</p><p>All images have a coded rounded corner as brand treatment depending on the position on the page.</p><p>To optimise the loading on images we are using the <code>&lt;picture&gt;</code> element, this allows us to define image sizes for each breakpoint, providing the user the best possible experience.</p><h4>Full Width Images</h4><p>For storytelling purposes we have an immersive full width image.</p><h5>Image Sizes</h5><p><strong>Extra Small:</strong> 640px (Screen size 320px and below)<br /><strong>Small:</strong> 1088px (Screen size 543px and below)<br /> <strong>Medium:</strong> 1536px (Screen size 767px and below)<br /><strong>Large:</strong> 2048px (Screen size 1023px and below)<br /><strong>Extra Large:</strong> 2880px (Screen size 1024px and above)</p>",
+            "context": {
+                "center": false,
+                "fullWidth": true,
+                "altText": "Alt Text",
+                "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/default/man-fishing/man-fishing-extra-large.jpg",
+                "placeholderSrc": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/full-width/man-fishing/man-fishing-placeholder.jpg",
+                "placeholderMobileSrc": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/full-width/man-fishing/man-fishing-placeholder-small.jpg",
+                "sources": [
+                    {
+                        "media": "(max-width: 320px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/full-width/man-fishing/man-fishing-extra-small.webp",
+                        "type": "image/webp"
+                    },
+                    {
+                        "media": "(max-width: 320px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/full-width/man-fishing/man-fishing-extra-small.jpg",
+                        "type": "image/webp"
+                    },
+                    {
+                        "media": "(max-width: 543px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/full-width/man-fishing/man-fishing-small.webp",
+                        "type": "image/webp"
+                    },
+                    {
+                        "media": "(max-width: 543px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/full-width/man-fishing/man-fishing-small.jpg",
+                        "type": "image/webp"
+                    },
+                    {
+                        "media": "(max-width: 767px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/full-width/man-fishing/man-fishing-medium.webp",
+                        "type": "image/webp"
+                    },
+                    {
+                        "media": "(max-width: 767px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/full-width/man-fishing/man-fishing-medium.jpg",
+                        "type": "image/webp"
+                    },
+                    {
+                        "media": "(max-width: 1023px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/full-width/man-fishing/man-fishing-large.webp",
+                        "type": "image/webp"
+                    },
+                    {
+                        "media": "(max-width: 1023px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/full-width/man-fishing/man-fishing-large.jpg",
+                        "type": "image/webp"
+                    },
+                    {
+                        "media": "(min-width: 1024px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/full-width/man-fishing/man-fishing-extra-large.webp",
+                        "type": "image/webp"
+                    },
+                    {
+                        "media": "(min-width: 1024px)",
+                        "src": "https://design-system-dev.np.cloudapps.thameswater.co.uk/images/components/image/full-width/man-fishing/man-fishing-extra-large.jpg",
+                        "type": "image/webp"
+                    }
+                ]
+            }
+        }
+    ]
+}

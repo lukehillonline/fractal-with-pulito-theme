@@ -1,0 +1,18 @@
+@import '../../../../scss/00-foundation/settings';
+@import 'node_modules/foundation-sites/scss/util/util';
+@import '../../../../scss/01-settings/_import';
+@import '../../../../scss/02-tools/_import';
+
+.button--tertiary {
+    @include button-tertiary($color-secondary, $color-cloud, $color-secondary-dark);
+
+    border-radius: 0;
+    padding: 0;
+
+    .icon {
+        margin-right: rem(6);
+        position: relative;
+        right: 0;
+        top: rem(5);
+    }
+}

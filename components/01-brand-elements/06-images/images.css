@@ -1,0 +1,86 @@
+.image--center,.image--left,.image--right{
+  position:relative;
+}
+
+.image--center .image__picture,.image--center img,.image--center source,.image--left .image__picture,.image--left img,.image--left source,.image--right .image__picture,.image--right img,.image--right source{
+  border-radius:0 0 2.25rem 0;
+  transition:border-radius .3s ease;
+}
+
+.image--center figcaption,.image--left figcaption,.image--right figcaption{
+  padding-top:.6875rem;
+}
+
+.image--full{
+  margin:0 auto;
+  max-width:103.125rem;
+}
+
+.image--full figure{
+  height:66vw;
+  position:relative;
+}
+
+.image--full .image__picture{
+  overflow:hidden;
+}
+
+.image--full figcaption{
+  padding:.6875rem 18px 0;
+}
+
+.image--hidden-mobile{
+  display:none !important;
+}
+
+@media print,screen and (min-width:48em){
+  .image--center .image__picture,.image--center img,.image--center source{
+    border-radius:0 0 3rem 0;
+  }
+  .image--center figcaption{
+    margin:0 8.33333%;
+    padding:18px 18px 0;
+    text-align:center;
+  }
+  .image--left .image__picture,.image--left img,.image--left source{
+    border-radius:0 0 3rem 0;
+  }
+  .image--left figcaption{
+    margin:0 8.33333%;
+    padding:18px 18px 0;
+  }
+  .image--right .image__picture,.image--right img,.image--right source{
+    border-radius:0 0 0 3rem;
+  }
+  .image--right figcaption{
+    margin:0 8.33333%;
+    padding:0 18px;
+  }
+  .image--full figure{
+    height:50vw;
+    max-height:51.5625rem;
+    overflow:hidden;
+    position:relative;
+  }
+  .image--full figcaption{
+    margin:0 auto;
+    max-width:90rem;
+    padding:18px 18px 0;
+    text-align:right;
+  }
+  .image--hidden-mobile{
+    display:block !important;
+  }
+}
+
+@media print,screen and (min-width:64em){
+  .image--center .image__picture,.image--center img,.image--center source,.image--left .image__picture,.image--left img,.image--left source{
+    border-radius:0 0 4.5rem 0;
+  }
+  .image--right .image__picture,.image--right img,.image--right source{
+    border-radius:0 0 0 4.5rem;
+  }
+}
+
+
+/*# sourceMappingURL=images.css.map*/

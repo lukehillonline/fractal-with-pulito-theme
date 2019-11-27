@@ -1,0 +1,24 @@
+@import '../../../../../scss/00-foundation/settings';
+@import 'node_modules/foundation-sites/scss/util/util';
+@import '../../../../../scss/01-settings/_import';
+@import '../../../../../scss/02-tools/_import';
+
+ol {
+    @extend %elementreset;
+}
+
+li {
+    @extend %elementreset;
+}
+
+.list-ordered {
+    margin: rem(0) rem(0) rem(36) rem(48);
+    padding-left: rem(43);
+
+    li {
+        line-height: rem(24);
+        margin-bottom: rem(6);
+        padding-left: rem(5);
+        position: relative;
+    }
+}

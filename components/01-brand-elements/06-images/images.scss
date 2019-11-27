@@ -1,0 +1,131 @@
+@import '../../../scss/00-foundation/settings';
+@import 'node_modules/foundation-sites/scss/util/util';
+@import '../../../scss/01-settings/_import';
+@import '../../../scss/02-tools/_import';
+
+.image--center,
+.image--left,
+.image--right {
+    position: relative;
+
+    .image__picture,
+    source,
+    img {
+        border-radius: 0 0 rem(36) 0;
+        transition: border-radius 0.3s ease;
+    }
+
+    figcaption {
+        padding-top: rem(11);
+    }
+}
+
+.image--full {
+    margin: 0 auto;
+    max-width: rem(1650);
+
+    figure {
+        height: 66vw;
+        position: relative;
+    }
+
+    .image__picture {
+        overflow: hidden;
+    }
+
+    figcaption {
+        padding: rem(11) $spacer-s 0;
+    }
+}
+
+.image--hidden-mobile {
+    display: none !important;
+}
+
+@include breakpoint('medium') {
+    .image--center {
+        .image__picture,
+        source,
+        img {
+            border-radius: 0 0 rem(48) 0;
+        }
+
+        figcaption {
+            margin: 0 8.33333%;
+            padding: $spacer-s $spacer-s 0;
+            text-align: center;
+        }
+    }
+
+    .image--left {
+        .image__picture,
+        source,
+        img {
+            border-radius: 0 0 rem(48) 0;
+        }
+
+        figcaption {
+            margin: 0 8.33333%;
+            padding: $spacer-s $spacer-s 0;
+        }
+    }
+
+    .image--right {
+        .image__picture,
+        source,
+        img {
+            border-radius: 0 0 0 rem(48);
+        }
+
+        figcaption {
+            margin: 0 8.33333%;
+            padding: 0 $spacer-s;
+        }
+    }
+
+    .image--full {
+        figure {
+            height: 50vw;
+            max-height: rem(825);
+            overflow: hidden;
+            position: relative;
+        }
+
+        figcaption {
+            margin: 0 auto;
+            max-width: rem(1440);
+            padding: $spacer-s $spacer-s 0;
+            text-align: right;
+        }
+    }
+
+    .image--hidden-mobile {
+        display: block !important;
+    }
+}
+
+@include breakpoint('large') {
+    .image--center {
+        .image__picture,
+        source,
+        img {
+            border-radius: 0 0 rem(72) 0;
+        }
+    }
+
+    .image--left {
+        .image__picture,
+        source,
+        img {
+            border-radius: 0 0 rem(72) 0;
+        }
+    }
+
+    .image--right {
+        .image__picture,
+        source,
+        img {
+            border-radius: 0 0 0 rem(72);
+        }
+    }
+}

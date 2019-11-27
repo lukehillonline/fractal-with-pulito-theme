@@ -1,0 +1,102 @@
+{
+    "preview": "@preview-left-aligned",
+    "title": "Radio Buttons",
+    "context": {
+        "fieldset": {
+            "text": "Label",
+            "optional": true
+        },
+        "label": {
+            "id": "radio_states_label_1",
+            "for": "radio_states_radio_1",
+            "class": "label--inline",
+            "text": "Radio label."
+        },
+        "radio": {
+            "name": "radio_states_radio_1",
+            "id": "radio_states_radio_1",
+            "class": "",
+            "validation": {
+                "required": true
+            }
+        },
+        "help": {
+            "text": "For radio buttons the help text goes at the end of the fieldset. <a href=\"#\" title=\"See more detail\">See more detail</a>",
+            "id": "radio_states_radio_1_help"
+        }
+    },
+    "variants": [
+        {
+            "name": "Success State",
+            "context": {
+                "label": {
+                    "id": "radio_states_label_9",
+                    "for": "radio_states_radio_9",
+                    "class": "label--inline",
+                    "text": "This radio is valid"
+                },
+                "radio": {
+                    "name": "radio_states_radio_9",
+                    "id": "radio_states_radio_9",
+                    "class": " success",
+                    "checked": true
+                },
+                "help": {
+                    "text": "For radio buttons the help text goes at the end of the fieldset. <a href=\"#\" title=\"See more detail\">See more detail</a>",
+                    "id": "radio_states_radio_1_help"
+                }
+            }
+        },
+        {
+            "name": "Error State",
+            "context": {
+                "label": {
+                    "id": "radio_states_label_8",
+                    "for": "radio_states_radio_8",
+                    "class": "label--inline",
+                    "text": "This radio has an error message"
+                },
+                "radio": {
+                    "name": "radio_states_radio_8",
+                    "id": "radio_states_radio_8",
+                    "class": " error",
+                    "aria": {
+                        "error": "radio_states_radio_8_error",
+                        "invalid": true
+                    }
+                },
+                "help": {
+                    "text": "For radio buttons the help text goes at the end of the fieldset. <a href=\"#\" title=\"See more detail\">See more detail</a>",
+                    "id": "radio_states_radio_1_help"
+                },
+                "error": {
+                    "text": "Error message",
+                    "id": "radio_states_radio_1_help"
+                }
+            }
+        },
+        {
+            "name": "Disabled",
+            "context": {
+                "label": {
+                    "id": "radio_states_label_5",
+                    "for": "radio_states_radio_5",
+                    "class": "label--inline label--disabled",
+                    "text": "This radio is disabled"
+                },
+                "radio": {
+                    "name": "radio_states_radio_5",
+                    "id": "radio_states_radio_5",
+                    "class": " radio--disabled",
+                    "aria": {
+                        "disabled": true
+                    }
+                },
+                "help": {
+                    "text": "For radio buttons the help text goes at the end of the fieldset. <a href=\"#\" title=\"See more detail\">See more detail</a>",
+                    "id": "radio_states_radio_1_help"
+                }
+            }
+        }
+    ]
+}

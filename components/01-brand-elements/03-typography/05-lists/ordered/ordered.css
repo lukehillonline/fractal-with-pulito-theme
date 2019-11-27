@@ -1,0 +1,24 @@
+li,ol{
+  border:0;
+  font:inherit;
+  font-size:100%;
+  margin:0;
+  padding:0;
+  -webkit-text-size-adjust:none;
+  vertical-align:baseline;
+}
+
+.list-ordered{
+  margin:0 0 2.25rem 3rem;
+  padding-left:2.6875rem;
+}
+
+.list-ordered li{
+  line-height:1.5rem;
+  margin-bottom:.375rem;
+  padding-left:.3125rem;
+  position:relative;
+}
+
+
+/*# sourceMappingURL=ordered.css.map*/

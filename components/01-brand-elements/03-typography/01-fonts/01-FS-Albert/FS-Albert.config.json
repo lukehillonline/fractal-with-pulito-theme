@@ -1,0 +1,16 @@
+{
+    "title": "FS Albert",
+    "label": "FS Albert",
+    "context": {
+        "fonts": [
+            {
+                "weight": "400",
+                "stack": "'FS Albert', Arial, 'Helvetica Neue', Helvetica, sans-serif"
+            },
+            {
+                "weight": "600",
+                "stack": "'FS Albert', Arial, 'Helvetica Neue', Helvetica, sans-serif"
+            }
+        ]
+    }
+}

@@ -1,0 +1,101 @@
+@import '../../../../scss/00-foundation/settings';
+@import 'node_modules/foundation-sites/scss/util/util';
+@import "../../../../scss/01-settings/_import";
+@import "../../../../scss/02-tools/_import";
+
+.checkbox {
+    margin: 0 rem(12) 0 0;
+    width: rem(38);
+
+    &:hover,
+    &.is-hovered,
+    &:focus,
+    &.is-focused {
+        & + .checkbox-overlay {
+            border-color: $color-primary;
+        }
+
+        &:checked {
+            & + .checkbox-overlay {
+                border-color: $color-primary-light;
+                color: $color-primary-light;
+            }
+        }
+    }
+
+    &:checked {
+        & + .checkbox-overlay {
+            border-color: $color-primary;
+            color: $color-primary;
+
+            .icon {
+                display: block;
+            }
+        }
+    }
+
+    &.success {
+        & + .checkbox-overlay {
+            border-color: $color-secondary-light;
+        }
+
+        &:checked {
+            & + .checkbox-overlay {
+                border-color: $color-secondary-light;
+                color: $color-secondary-light;
+            }
+        }
+    }
+
+    &--disabled {
+        & + .checkbox-overlay {
+            background-color: $color-alabaster;
+            border-color: $color-cloud;
+        }
+
+        &:hover,
+        &.is-hovered,
+        &:focus,
+        &.is-focused {
+            & + .checkbox-overlay {
+                border-color: $color-cloud;
+            }
+
+            &:checked {
+                & + .checkbox-overlay {
+                    border-color: $color-cloud;
+                    color: $color-cloud;
+                }
+            }
+        }
+
+        &:checked {
+            & + .checkbox-overlay {
+                border-color: $color-cloud;
+                color: $color-cloud;
+            }
+        }
+    }
+}
+
+.checkbox-overlay {
+    background-color: $color-white;
+    border: rem(2) solid $color-cloud;
+    border-radius: rem(6);
+    display: block;
+    height: rem(38);
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: rem(38);
+
+    .icon {
+        display: none;
+        height: rem(21);
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: rem(21);
+    }
+}

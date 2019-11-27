@@ -1,0 +1,23 @@
+@import '../../../scss/00-foundation/settings';
+@import 'node_modules/foundation-sites/scss/util/util';
+@import '../../../scss/01-settings/_import';
+@import '../../../scss/02-tools/_import';
+
+.information-pill {
+    background-color: $color-white;
+    border-radius: rem(24);
+    color: $color-boulder;
+    display: inline-block;
+    font-size: rem(12);
+    padding: rem(15) rem(16) rem(14) rem(46);
+    position: relative;
+
+    &__icon {
+        color: $color-primary;
+        height: rem(25);
+        left: rem(12);
+        position: absolute;
+        top: rem(10);
+        width: rem(25);
+    }
+}

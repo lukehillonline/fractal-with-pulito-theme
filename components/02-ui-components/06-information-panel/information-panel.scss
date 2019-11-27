@@ -1,0 +1,193 @@
+@import '../../../scss/00-foundation/settings';
+@import 'node_modules/foundation-sites/scss/util/util';
+@import '../../../scss/01-settings/_import';
+@import '../../../scss/02-tools/_import';
+
+.information-panel {
+    background-color: $color-alabaster;
+    border: rem(2) solid $color-cloud;
+    border-radius: rem(6);
+    margin-bottom: $spacer-s;
+    opacity: 1;
+    padding: rem(21) rem(18);
+    position: relative;
+
+    .icon {
+        height: rem(22);
+        left: rem(19);
+        line-height: 1;
+        position: absolute;
+        top: rem(19);
+        width: rem(22);
+    }
+
+    &.information-panel--success {
+        background-color: rgba($color-secondary, 0.1);
+        border-color: $color-secondary;
+        padding: rem(21) rem(18) rem(21) rem(60);
+
+        .icon {
+            color: $color-secondary;
+        }
+
+        .information-panel__close {
+            color: $color-secondary;
+
+            &:hover,
+            &:focus {
+                color: $color-secondary-dark;
+            }
+        }
+    }
+
+    &.information-panel--error {
+        background-color: rgba($color-quaternary, 0.1);
+        border-color: $color-quaternary;
+        padding: rem(21) rem(18) rem(21) rem(60);
+
+        .icon {
+            color: $color-quaternary;
+        }
+
+        .information-panel__close {
+            color: $color-quaternary;
+
+            &:hover,
+            &:focus {
+                color: $color-quaternary-dark;
+            }
+        }
+    }
+
+    &.information-panel--warning {
+        background-color: rgba($color-tertiary-light, 0.1);
+        border-color: $color-tertiary-light;
+        padding: rem(21) rem(18) rem(21) rem(60);
+
+        .icon {
+            color: $color-tertiary;
+        }
+
+        .information-panel__close {
+            color: $color-tertiary;
+
+            &:hover,
+            &:focus {
+                color: $color-tertiary-dark;
+            }
+        }
+    }
+
+    &.information-panel--info {
+        background-color: rgba($color-primary, 0.1);
+        border-color: $color-primary;
+        padding: rem(21) rem(18) rem(21) rem(60);
+
+        .icon {
+            color: $color-primary;
+        }
+
+        .information-panel__close {
+            color: $color-primary;
+
+            &:hover,
+            &:focus {
+                color: $color-primary-dark;
+            }
+        }
+    }
+
+    &.close {
+        border: 0 solid $color-cloud;
+        height: 0 !important;
+        margin-bottom: 0;
+        margin-top: 0;
+        opacity: 0;
+        overflow: hidden;
+        padding-bottom: 0;
+        padding-top: 0;
+        transition: height 0.3s ease, padding 0.3s ease, margin 0.3s ease, border 0.3s ease, opacity 0.3s ease, border 0.3s ease;
+
+        .information-panel__title {
+            padding-top: rem(21);
+            transition: padding 0.3s ease;
+        }
+    }
+
+    &.information-panel--dismissible {
+        padding-right: rem(40);
+    }
+}
+
+.information-panel__close {
+    border: 0;
+    height: rem(50);
+    line-height: 1;
+    padding: rem(13);
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: rem(50);
+
+    .icon {
+        height: 100%;
+        left: auto;
+        position: relative;
+        top: auto;
+        width: 100%;
+    }
+
+    &:hover {
+        border: 0;
+    }
+}
+
+.information-panel__title {
+    font-size: rem(15);
+    line-height: rem(18);
+    margin-bottom: rem(6);
+    padding-top: 0;
+
+    @include font-body('bold');
+
+    .information-panel--dismissible & {
+        padding-right: rem(40);
+    }
+}
+
+.information-panel__content {
+    font-size: rem(14);
+    line-height: rem(18);
+    margin-bottom: rem(3);
+
+    & * {
+        font-size: rem(14);
+        line-height: rem(18);
+    }
+}
+
+.information-panel__link {
+    border-color: $color-dark-grey;
+    color: $color-dark-grey;
+    font-size: rem(14);
+    line-height: rem(18);
+
+    &:hover,
+    &:focus,
+    &:active,
+    &:visited {
+        border: 0;
+        color: $color-dark-grey;
+    }
+}
+
+@include breakpoint('medium') {
+    .information-panel {
+        &.information-panel--success,
+        &.information-panel--error,
+        &.information-panel--warning,
+        &.information-panel--info {
+            padding-right: rem(40);
+        }
+    }
+}

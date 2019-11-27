@@ -1,0 +1,11 @@
+<!--
+    NOTE: any pl__ classes are not for production, these are pattern libraray
+    specific classes.
+-->
+{{#each spacers}}
+<h6>{{ name }}: {{height}}px</h6>
+<div class="row{{#if @last}}{{else}} pl__spacer--m{{/if}}" style="background-color: #009FDF;">
+    <div class="columns {{name}}"></div>
+</div>
+
+{{/each}}

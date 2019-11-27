@@ -1,0 +1,70 @@
+.checkbox{
+  margin:0 .75rem 0 0;
+  width:2.375rem;
+}
+
+.checkbox.is-focused+.checkbox-overlay,.checkbox.is-hovered+.checkbox-overlay,.checkbox:focus+.checkbox-overlay,.checkbox:hover+.checkbox-overlay{
+  border-color:#009ede;
+}
+
+.checkbox.is-focused:checked+.checkbox-overlay,.checkbox.is-hovered:checked+.checkbox-overlay,.checkbox:focus:checked+.checkbox-overlay,.checkbox:hover:checked+.checkbox-overlay{
+  border-color:#4cc2f1;
+  color:#4cc2f1;
+}
+
+.checkbox:checked+.checkbox-overlay{
+  border-color:#009ede;
+  color:#009ede;
+}
+
+.checkbox:checked+.checkbox-overlay .icon{
+  display:block;
+}
+
+.checkbox.success+.checkbox-overlay{
+  border-color:#bad80a;
+}
+
+.checkbox.success:checked+.checkbox-overlay{
+  border-color:#bad80a;
+  color:#bad80a;
+}
+
+.checkbox--disabled+.checkbox-overlay{
+  background-color:#f8f8f8;
+  border-color:#e5e5e5;
+}
+
+.checkbox--disabled.is-focused+.checkbox-overlay,.checkbox--disabled.is-hovered+.checkbox-overlay,.checkbox--disabled:focus+.checkbox-overlay,.checkbox--disabled:hover+.checkbox-overlay{
+  border-color:#e5e5e5;
+}
+
+.checkbox--disabled.is-focused:checked+.checkbox-overlay,.checkbox--disabled.is-hovered:checked+.checkbox-overlay,.checkbox--disabled:checked+.checkbox-overlay,.checkbox--disabled:focus:checked+.checkbox-overlay,.checkbox--disabled:hover:checked+.checkbox-overlay{
+  border-color:#e5e5e5;
+  color:#e5e5e5;
+}
+
+.checkbox-overlay{
+  background-color:#fff;
+  border:.125rem solid #e5e5e5;
+  border-radius:.375rem;
+  display:block;
+  height:2.375rem;
+  left:0;
+  position:absolute;
+  top:0;
+  width:2.375rem;
+}
+
+.checkbox-overlay .icon{
+  display:none;
+  height:1.3125rem;
+  left:50%;
+  position:absolute;
+  top:50%;
+  transform:translate(-50%, -50%);
+  width:1.3125rem;
+}
+
+
+/*# sourceMappingURL=checkboxes.css.map*/

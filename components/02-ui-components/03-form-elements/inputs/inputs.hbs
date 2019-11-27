@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="columns small-12 spacer-m">
+        <label id="{{label.id}}" for="{{label.for}}" class="label {{label.class}}">{{label.text}}
+            {{#if label.optional}}
+            <small class="label-indicator">(Optional)</small>
+            {{/if}}
+        </label>
+        <input type="{{input.type}}" name="{{input.name}}" id="{{input.id}}" class="input {{input.class}} {{modifier}}" placeholder="{{input.placeholder}}"{{#if input.aria.describedby}} aria-describedby="{{input.aria.describedby}}"{{/if}}{{#if input.aria.error}} aria-error="{{input.aria.error}}"{{/if}}{{#if input.aria.invalid}} aria-invalid="true"{{/if}}{{#if input.aria.disabled}} aria-disabled="true" disabled{{/if}}{{#if input.validation.required}} aria-required="true" required{{/if}}{{#if input.validation.requiredMessage}} data-required-message="{{input.validation.requiredMessage}}"{{/if}}{{#if input.validation.pattern}} pattern="{{input.validation.pattern}}"{{/if}}{{#if input.validation.patternMessage}} data-pattern-message="{{input.validation.patternMessage}}"{{/if}}{{#if input.validation.lengthMin}} data-length-min="{{input.validation.lengthMin}}"{{/if}}{{#if input.validation.lengthMinMessage}} data-length-min-message="{{input.validation.lengthMinMessage}}"{{/if}}{{#if input.validation.lengthMax}} data-length-max="{{input.validation.lengthMax}}"{{/if}}{{#if input.validation.lengthMaxMessage}} data-length-max-message="{{input.validation.lengthMaxMessage}}"{{/if}}{{#if input.validation.equality}} data-equality="{{input.validation.equality}}"{{/if}}{{#if input.validation.equalityMessage}} data-equality-message="{{input.validation.equalityMessage}}"{{/if}}{{#if input.validation.typeMessage}} data-type-message="{{input.validation.typeMessage}}"{{/if}}{{#if noValidate}} novalidate{{/if}}{{#if tabIndex}} tabindex="{{tabIndex}}"{{/if}} />
+        {{#if error}}
+        <small class="label-indicator label-indicator--error" id="{{error.id}}">{{error.text}}</small>
+        {{/if}}
+        {{#if help}}
+        <small class="label-indicator label-indicator--help" id="{{help.id}}">{{{help.text}}}</small>
+        {{/if}}
+    </div>
+</div>

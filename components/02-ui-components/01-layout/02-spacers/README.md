@@ -1,0 +1,1 @@
+Our vertical grid is divided in segments of 6px. We try to use vertical spacing in a consistent way to allow our designs to be clear and easily digestible.

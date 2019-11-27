@@ -1,0 +1,16 @@
+<fieldset class="fieldset">
+    <legend class="legend spacer-s">{{fieldset.text}}{{#if fieldset.optional}}<small class="label-indicator">(Optional)</small>{{/if}}</legend>
+    <div class="row">
+        <div class="columns small-12 spacer-s">
+            <label for="{{label.for}}" class="label {{label.class}}">
+                <input type="checkbox" class="checkbox {{checkbox.class}} {{modifier}}" id="{{checkbox.id}}" name="{{checkbox.name}}" value="{{checkbox.value}}"{{#if checkbox.checked}} aria-checked="true" checked{{/if}}{{#if checkbox.aria.describedby}} aria-describedby="{{checkbox.aria.describedby}}"{{/if}}{{#if checkbox.aria.error}} aria-error="{{checkbox.aria.error}}"{{/if}}{{#if checkbox.aria.invalid}} aria-invalid="true"{{/if}}{{#if checkbox.aria.disabled}} aria-disabled="true" disabled{{/if}}{{#if checkbox.validation.required}} aria-required="true" required{{/if}}{{#if checkbox.validation.requiredMessage}} data-required-message="{{checkbox.validation.requiredMessage}}"{{/if}}{{#if checkbox.validation.pattern}} pattern="{{checkbox.validation.pattern}}"{{/if}}{{#if checkbox.validation.patternMessage}} data-pattern-message="{{checkbox.validation.patternMessage}}"{{/if}}{{#if checkbox.validation.lengthMin}} data-length-min="{{checkbox.validation.lengthMin}}"{{/if}}{{#if checkbox.validation.lengthMinMessage}} data-length-min-message="{{checkbox.validation.lengthMinMessage}}"{{/if}}{{#if checkbox.validation.lengthMax}} data-length-max="{{checkbox.validation.lengthMax}}"{{/if}}{{#if checkbox.validation.lengthMaxMessage}} data-length-max-message="{{checkbox.validation.lengthMaxMessage}}"{{/if}}{{#if checkbox.validation.equality}} data-equality="{{checkbox.validation.equality}}"{{/if}}{{#if checkbox.validation.equalityMessage}} data-equality-message="{{checkbox.validation.equalityMessage}}"{{/if}}{{#if checkbox.validation.typeMessage}} data-type-message="{{checkbox.validation.typeMessage}}"{{/if}}{{#if noValidate}} novalidate{{/if}}{{#if tabIndex}} tabindex="{{tabIndex}}"{{/if}}/>
+                <span class="checkbox-overlay">
+                    <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Tick</title><path fill-rule="evenodd" clip-rule="evenodd" d="M21.8541 3.52815C22.667 4.276 22.7197 5.54124 21.9719 6.35412L10.4719 18.8541C10.1029 19.2551 9.5864 19.4882 9.04164 19.4996C8.49688 19.5109 7.97107 19.2995 7.58579 18.9142L2.58579 13.9142C1.80474 13.1332 1.80474 11.8668 2.58579 11.0858C3.36683 10.3047 4.63317 10.3047 5.41421 11.0858L8.93985 14.6114L19.0281 3.6459C19.776 2.83301 21.0412 2.78029 21.8541 3.52815Z" fill="currentColor"/></svg>
+                </span>
+                {{label.text}}{{#if checkbox.optional}}<small class="label-indicator">(Optional)</small>{{/if}}
+            </label>
+            {{#if error}}<small class="label-indicator label-indicator--error" id="{{error.id}}">{{error.text}}</small>{{/if}}
+            {{#if help}}<small class="label-indicator label-indicator--help" id="{{help.id}}">{{{help.text}}}</small>{{/if}}
+        </div>
+    </div>
+</fieldset>

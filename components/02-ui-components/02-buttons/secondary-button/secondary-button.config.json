@@ -1,0 +1,40 @@
+{
+    "title": "Secondary Button",
+    "context": {
+        "buttonText": "Secondary Button"
+    },
+    "variants": [
+        {
+            "name": "Icon Right",
+            "context": {
+                "buttonText": "Secondary Button",
+                "icon": true,
+                "iconRight": true
+            }
+        },
+        {
+            "name": "Icon Left",
+            "context": {
+                "buttonText": "Secondary Button",
+                "icon": true,
+                "iconLeft": true
+            }
+        },
+        {
+            "name": "Disabled",
+            "context": {
+                "buttonText": "Secondary Button",
+                "isDisabled": true
+            }
+        },
+        {
+            "name": "Disabled with Icon",
+            "context": {
+                "buttonText": "Secondary Button",
+                "icon": true,
+                "iconLeft": true,
+                "isDisabled": true
+            }
+        }
+    ]
+}

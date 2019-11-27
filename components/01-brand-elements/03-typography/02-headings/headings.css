@@ -1,0 +1,124 @@
+h1,h2,h3,h4,h5,h6{
+  border:0;
+  font:inherit;
+  font-size:100%;
+  margin:0;
+  padding:0;
+  -webkit-text-size-adjust:none;
+  vertical-align:baseline;
+}
+
+.heading00,h1{
+  font-family:Gotham,Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-weight:400;
+  font-size:3rem;
+  letter-spacing:-.4px;
+  line-height:3.5rem;
+}
+
+@media print,screen and (min-width:48em){
+  .heading00,h1{
+    font-size:3.75rem;
+    letter-spacing:-.8px;
+    line-height:4.125rem;
+  }
+}
+
+
+.heading01,h2{
+  font-family:Gotham,Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-weight:400;
+  font-size:2.25rem;
+  letter-spacing:-.4px;
+  line-height:2.75rem;
+}
+
+@media print,screen and (min-width:48em){
+  
+  .heading01,h2{
+    font-size:3rem;
+    letter-spacing:-.8px;
+    line-height:3.5rem;
+  }
+}
+
+
+.heading02,h3{
+  font-family:Gotham,Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-weight:400;
+  font-size:1.75rem;
+  letter-spacing:-.4px;
+  line-height:2.25rem;
+}
+
+@media print,screen and (min-width:48em){
+  
+  .heading02,h3{
+    font-size:1.875rem;
+    letter-spacing:-.4px;
+    line-height:2.375rem;
+  }
+}
+
+
+.heading03,h4{
+  font-family:Gotham,Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-weight:400;
+  font-size:1.25rem;
+  letter-spacing:-.4px;
+  line-height:1.5rem;
+}
+
+@media print,screen and (min-width:48em){
+  
+  .heading03,h4{
+    font-size:1.5rem;
+    letter-spacing:-.4px;
+    line-height:1.875rem;
+  }
+}
+
+
+.heading04,h5{
+  font-family:Gotham,Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-weight:400;
+  font-size:1.125rem;
+  letter-spacing:-.4px;
+  line-height:1.5rem;
+}
+
+@media print,screen and (min-width:48em){
+  
+  .heading04,h5{
+    font-size:1.25rem;
+    letter-spacing:-.4px;
+    line-height:1.75rem;
+  }
+}
+
+
+.heading05,h6{
+  font-weight:400;
+  font-family:Gotham,Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-weight:600;
+  font-size:1rem;
+  letter-spacing:-.4px;
+  line-height:1.375rem;
+}
+
+@media print,screen and (min-width:48em){
+  
+  .heading05,h6{
+    font-size:1.125rem;
+    letter-spacing:-.4px;
+    line-height:1.5rem;
+  }
+}
+
+h1,h2,h3,h4,h5,h6{
+  color:inherit;
+  line-height:1;
+}
+
+
+/*# sourceMappingURL=headings.css.map*/

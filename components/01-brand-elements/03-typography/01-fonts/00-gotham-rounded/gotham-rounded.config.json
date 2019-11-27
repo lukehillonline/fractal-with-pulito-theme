@@ -1,0 +1,15 @@
+{
+    "title": "Gotham Rounded",
+    "context": {
+        "fonts": [
+            {
+                "weight": "400",
+                "stack": "'Gotham', Arial, 'Helvetica Neue', Helvetica, sans-serif"
+            },
+            {
+                "weight": "600",
+                "stack": "'Gotham', Arial, 'Helvetica Neue', Helvetica, sans-serif"
+            }
+        ]
+    }
+}

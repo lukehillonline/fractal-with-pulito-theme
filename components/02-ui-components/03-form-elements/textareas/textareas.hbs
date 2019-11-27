@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="columns small-12 spacer-m">
+        <label id="{{label.id}}" for="{{label.for}}" class="label {{label.class}}">{{label.text}}
+            {{#if label.optional}}
+            <small class="label-indicator">(Optional)</small>
+            {{/if}}
+        </label>
+        <textarea name="{{textarea.name}}" id="{{textarea.id}}" class="textarea{{textarea.class}}" placeholder="{{textarea.placeholder}}"{{#if tabIndex}} tabindex="{{tabIndex}}"{{/if}}></textarea>
+        {{#if error}}
+        <small class="label-indicator label-indicator--error" id="{{error.id}}">{{error.text}}</small>
+        {{/if}}
+        {{#if help}}
+        <small class="label-indicator label-indicator--help" id="{{help.id}}">{{{help.text}}}</small>
+        {{/if}}
+    </div>
+</div>

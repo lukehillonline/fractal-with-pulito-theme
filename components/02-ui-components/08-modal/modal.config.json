@@ -1,0 +1,16 @@
+{
+    "preview": "@preview-modal",
+    "title": "Modal",
+    "context": {
+        "modalLink": {
+            "class": "",
+            "modalId": "modal_1",
+            "text": "Open modal"
+        },
+        "modalSettings": {
+            "id": "modal_1",
+            "titleId": "modal_title_1",
+            "titleText": "Modal Title"
+        }
+    }
+}

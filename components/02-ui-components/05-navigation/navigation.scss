@@ -1,0 +1,67 @@
+@import '../../../scss/00-foundation/settings';
+@import 'node_modules/foundation-sites/scss/util/util';
+@import '../../../scss/01-settings/_import';
+@import '../../../scss/02-tools/_import';
+
+.site-header {
+    @include gradientBlue();
+
+    position: relative;
+
+    &--simple {
+        height: rem(54);
+    }
+
+    &__logo {
+        @include gradientBlue();
+
+        background-attachment: fixed;
+        background-size: 100% rem(54);
+        border: none;
+        border-radius: rem(66);
+        height: rem(66);
+        left: 50%;
+        padding: rem(6);
+        position: absolute;
+        transform: translateX(-50%);
+        width: rem(66);
+        z-index: map-get($z-index, 'above-content');
+
+        &.is-visited,
+        &:visited,
+        &.is-hover,
+        &:hover,
+        &:focus,
+        &:active {
+            border: none;
+        }
+
+        svg {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    &__arrow-previous {
+        border: 0;
+        float: left;
+        height: rem(54);
+        margin-left: rem(-15);
+        padding: rem(15);
+        transform: rotate(-90deg);
+        width: rem(54);
+
+        &:hover,
+        &:visited,
+        &:focus,
+        &:active {
+            border: 0;
+        }
+
+        svg {
+            color: $color-white;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}

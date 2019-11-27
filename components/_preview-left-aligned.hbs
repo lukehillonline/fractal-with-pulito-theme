@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    {{> @meta }}
+
+</head>
+<body>
+
+    <div class="Preview-position">
+        <div class="grid-container align-left">
+            <div class="row">
+                <div class="columns small-12 medium-8 small-centered">
+                    {{{ yield }}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ path '/scripts/app.js' }}"></script>
+
+</body>
+</html>

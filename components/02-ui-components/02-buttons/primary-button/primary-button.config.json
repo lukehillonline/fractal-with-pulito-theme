@@ -1,0 +1,40 @@
+{
+    "title": "Primary Button",
+    "context": {
+        "buttonText": "Primary Button"
+    },
+    "variants": [
+        {
+            "name": "Icon Right",
+            "context": {
+                "buttonText": "Primary Button",
+                "icon": true,
+                "iconRight": true
+            }
+        },
+        {
+            "name": "Icon Left",
+            "context": {
+                "buttonText": "Primary Button",
+                "icon": true,
+                "iconLeft": true
+            }
+        },
+        {
+            "name": "Disabled",
+            "context": {
+                "buttonText": "Primary Button",
+                "isDisabled": true
+            }
+        },
+        {
+            "name": "Disabled with Icon",
+            "context": {
+                "buttonText": "Primary Button",
+                "icon": true,
+                "iconLeft": true,
+                "isDisabled": true
+            }
+        }
+    ]
+}

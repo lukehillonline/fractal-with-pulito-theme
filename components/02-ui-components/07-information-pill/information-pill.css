@@ -1,0 +1,21 @@
+.information-pill{
+  background-color:#fff;
+  border-radius:1.5rem;
+  color:#767676;
+  display:inline-block;
+  font-size:.75rem;
+  padding:.9375rem 1rem .875rem 2.875rem;
+  position:relative;
+}
+
+.information-pill__icon{
+  color:#009ede;
+  height:1.5625rem;
+  left:.75rem;
+  position:absolute;
+  top:.625rem;
+  width:1.5625rem;
+}
+
+
+/*# sourceMappingURL=information-pill.css.map*/

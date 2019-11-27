@@ -1,0 +1,23 @@
+<div class="row">
+    <div class="columns small-12 spacer-m">
+        <label id="{{label.id}}" for="{{label.for}}" class="label {{label.class}}">{{label.text}}
+            {{#if label.optional}}
+            <small class="label-indicator">(Optional)</small>
+            {{/if}}
+        </label>
+        <div class="select-wrapper">
+            <select name="{{select.name}}" id="{{select.id}}" class="select{{select.class}}"{{#if select.aria.invalid}} aria-errormessage="{{select.aria.error}}" aria-invalid="true"{{/if}}{{#if select.aria.disabled}} aria-disabled="true" disabled{{/if}}>
+                <option value="" selected aria-selected="true">Select an option</option>
+                <option value="true">True</option>
+                <option value="false">false</option>
+            </select>
+            <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Chevron</title><path fill-rule="evenodd" clip-rule="evenodd" d="M20.7071 16.7071C20.3166 17.0976 19.6834 17.0976 19.2929 16.7071L12 9.41421L4.70711 16.7071C4.31658 17.0976 3.68342 17.0976 3.29289 16.7071C2.90237 16.3166 2.90237 15.6834 3.29289 15.2929L11.2929 7.29289C11.6834 6.90237 12.3166 6.90237 12.7071 7.29289L20.7071 15.2929C21.0976 15.6834 21.0976 16.3166 20.7071 16.7071Z" fill="currentColor"/></svg>
+        </div>
+        {{#if error}}
+        <span class="label-indicator label-indicator--error" id="{{error.id}}">Error message.</span>
+        {{/if}}
+        {{#if help}}
+        <small class="label-indicator label-indicator--help" id="{{help.id}}">With help text. <a href="#" title="See more detail">See more detail</a></a></small>
+        {{/if}}
+    </div>
+</div>

@@ -1,0 +1,30 @@
+{
+    "title": "Tertiary Button",
+    "context": {
+        "buttonText": "Tertiary Button"
+    },
+    "variants": [
+        {
+            "name": "Icon",
+            "context": {
+                "buttonText": "Tertiary Button",
+                "icon": true
+            }
+        },
+        {
+            "name": "Disabled",
+            "context": {
+                "buttonText": "Tertiary Button",
+                "isDisabled": true
+            }
+        },
+        {
+            "name": "Disabled with Icon",
+            "context": {
+                "buttonText": "Tertiary Button",
+                "icon": true,
+                "isDisabled": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+@import '../../../scss/00-foundation/settings';
+@import 'node_modules/foundation-sites/scss/util/util';
+@import '../../../scss/01-settings/_import';
+@import '../../../scss/02-tools/_import';
+
+.modal {
+    background-color: $color-white;
+    border-radius: rem(12) rem(12) 0 0;
+    box-shadow: 0 rem(-2) rem(2) rgba(178, 178, 178, 0.25);
+    left: 0;
+    margin: auto;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: map-get($z-index, 'above-content');
+
+    &.touched {
+        transition: top 0.3s ease;
+    }
+
+    &--closed {
+        display: none;
+    }
+
+    &--docked-left-side {
+        height: 40vh;
+        min-height: 40vh;
+        overflow: scroll;
+        top: 60vh;
+    }
+
+    &--docked-bottom {
+        bottom: 0;
+        height: calc(100vh - 100px);
+        margin: 0;
+        min-height: calc(100vh - 100px);
+        overflow: scroll;
+        right: 0;
+        top: auto;
+    }
+
+    @include breakpoint(medium) {
+        border-radius: 0 0 0 0;
+
+        &--docked-left-side {
+            height: calc(100vh - 54px);
+            top: rem(54);
+            width: 40vw;
+        }
+
+        &--docked-bottom {
+            height: auto;
+            min-height: 0;
+            overflow: auto;
+        }
+    }
+}
+
+.modal__close {
+    background-color: $color-primary;
+    border: 0;
+    border-radius: 100%;
+    box-shadow: 0 rem(2) rem(2) rgba(178, 178, 178, 0.25);
+    color: $color-white;
+    height: rem(40);
+    line-height: 1;
+    margin: 0;
+    padding: rem(12.5);
+    position: absolute;
+    right: rem(15);
+    top: rem(15);
+    width: rem(40);
+    z-index: 2;
+
+    &:visited {
+        background-color: $color-primary;
+        color: $color-white;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: $color-primary-dark;
+        color: $color-white;
+    }
+
+    .icon {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.modal__mobile-draggable {
+    display: block;
+    height: 50px;
+    width: 100%;
+
+    &::after {
+        background-color: $color-grey;
+        border-radius: rem(4);
+        content: '';
+        height: rem(4);
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: rem(36);
+    }
+
+    @include breakpoint('medium') {
+        display: none;
+    }
+}
+
+.modal__content {
+    padding: $spacer-m rem(15) rem(15);
+    text-align: center;
+
+    p {
+        margin-bottom: rem(24);
+    }
+
+    .button {
+        display: block;
+        margin: 0 auto;
+        max-width: rem(280);
+        width: 100%;
+    }
+
+    @include breakpoint(medium) {
+        .button {
+            margin-top: rem(18);
+            max-width: none;
+            width: auto;
+        }
+    }
+}
+
+.modal__title {
+    @extend %heading03;
+
+    color: $color-primary-dark;
+    margin-bottom: rem(18);
+
+    @include breakpoint(medium) {
+        margin-bottom: rem(36);
+    }
+}

@@ -1,0 +1,1 @@
+Checkboxes are used to present the user with a range of options, from which the user may select any number of options to complete their task. Within a group of checkboxes, each operates individually, so the user can check or uncheck options independently.

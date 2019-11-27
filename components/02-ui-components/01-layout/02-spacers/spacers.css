@@ -1,0 +1,28 @@
+.spacer-none{
+  margin-bottom:0;
+}
+
+.spacer-s{
+  margin-bottom:18px;
+}
+
+.spacer-m{
+  margin-bottom:36px;
+}
+
+.spacer-l{
+  margin-bottom:72px;
+}
+
+.spacer-xl{
+  margin-bottom:144px;
+}
+
+@media print,screen and (min-width:48em){
+  .medium-spacer-none{
+    margin-bottom:0;
+  }
+}
+
+
+/*# sourceMappingURL=spacers.css.map*/

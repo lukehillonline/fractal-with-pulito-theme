@@ -1,0 +1,1 @@
+The filled-out primary button is used for the most important action on a page or in a view.

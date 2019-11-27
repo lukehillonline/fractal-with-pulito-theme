@@ -1,0 +1,18 @@
+{{#if center}}<div class="row"><div class="columns small-12 medium-8 medium-push-2"><div class="image--center">{{/if}}
+{{#if left}}<div class="row"><div class="columns small-12 medium-7 medium-pull-1"><div class="image--left">{{/if}}
+{{#if right}}<div class="row"><div class="columns small-12 medium-7 medium-push-6"><div class="image--right">{{/if}}
+{{#if fullWidth}}<!-- Close grid-container --></div><div class="image--full">{{/if}}
+    <figure aria-labelledby="image_caption_1">
+        <picture class="image__picture">
+            {{#each sources}}
+                <source media="{{media}}" srcset="" data-src="{{path src}}" type="{{type}}" />
+            {{/each}}
+            <img src="{{path src}}" {{#if width}}width={{width}}{{/if}} {{#if height}}height={{height}}{{/if}} alt="{{altText}}" />
+        </picture>
+    </figure>
+    <figcaption class="image__caption" id="image_caption_1">{{caption}}</figcaption>
+{{#if fullWidth}}</div>
+<!-- Reopen grid-container --><div class="grid-container">{{/if}}
+{{#if right}}</div></div></div>{{/if}}
+{{#if left}}</div></div></div>{{/if}}
+{{#if center}}</div></div></div>{{/if}}

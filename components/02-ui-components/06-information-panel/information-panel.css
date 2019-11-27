@@ -1,0 +1,160 @@
+.information-panel{
+  background-color:#f8f8f8;
+  border:.125rem solid #e5e5e5;
+  border-radius:.375rem;
+  margin-bottom:18px;
+  opacity:1;
+  padding:1.3125rem 1.125rem;
+  position:relative;
+}
+
+.information-panel .icon{
+  height:1.375rem;
+  left:1.1875rem;
+  line-height:1;
+  position:absolute;
+  top:1.1875rem;
+  width:1.375rem;
+}
+
+.information-panel.information-panel--success{
+  background-color:rgba(112, 164, 0, .1);
+  border-color:#70a400;
+  padding:1.3125rem 1.125rem 1.3125rem 3.75rem;
+}
+
+.information-panel.information-panel--success .icon,.information-panel.information-panel--success .information-panel__close{
+  color:#70a400;
+}
+
+.information-panel.information-panel--success .information-panel__close:focus,.information-panel.information-panel--success .information-panel__close:hover{
+  color:#598300;
+}
+
+.information-panel.information-panel--error{
+  background-color:rgba(221, 56, 23, .1);
+  border-color:#dd3817;
+  padding:1.3125rem 1.125rem 1.3125rem 3.75rem;
+}
+
+.information-panel.information-panel--error .icon,.information-panel.information-panel--error .information-panel__close{
+  color:#dd3817;
+}
+
+.information-panel.information-panel--error .information-panel__close:focus,.information-panel.information-panel--error .information-panel__close:hover{
+  color:#b02c12;
+}
+
+.information-panel.information-panel--warning{
+  background-color:rgba(255, 185, 0, .1);
+  border-color:#ffb900;
+  padding:1.3125rem 1.125rem 1.3125rem 3.75rem;
+}
+
+.information-panel.information-panel--warning .icon,.information-panel.information-panel--warning .information-panel__close{
+  color:#ef7013;
+}
+
+.information-panel.information-panel--warning .information-panel__close:focus,.information-panel.information-panel--warning .information-panel__close:hover{
+  color:#d1610e;
+}
+
+.information-panel.information-panel--info{
+  background-color:rgba(0, 158, 222, .1);
+  border-color:#009ede;
+  padding:1.3125rem 1.125rem 1.3125rem 3.75rem;
+}
+
+.information-panel.information-panel--info .icon,.information-panel.information-panel--info .information-panel__close{
+  color:#009ede;
+}
+
+.information-panel.information-panel--info .information-panel__close:focus,.information-panel.information-panel--info .information-panel__close:hover{
+  color:#006e9b;
+}
+
+.information-panel.close{
+  border:0 solid #e5e5e5;
+  height:0 !important;
+  margin-bottom:0;
+  margin-top:0;
+  opacity:0;
+  overflow:hidden;
+  padding-bottom:0;
+  padding-top:0;
+  transition:height .3s ease,padding .3s ease,margin .3s ease,border .3s ease,opacity .3s ease,border .3s ease;
+}
+
+.information-panel.close .information-panel__title{
+  padding-top:1.3125rem;
+  transition:padding .3s ease;
+}
+
+.information-panel.information-panel--dismissible{
+  padding-right:2.5rem;
+}
+
+.information-panel__close{
+  border:0;
+  height:3.125rem;
+  line-height:1;
+  padding:.8125rem;
+  position:absolute;
+  right:0;
+  top:0;
+  width:3.125rem;
+}
+
+.information-panel__close .icon{
+  height:100%;
+  left:auto;
+  position:relative;
+  top:auto;
+  width:100%;
+}
+
+.information-panel__close:hover{
+  border:0;
+}
+
+.information-panel__title{
+  font-size:.9375rem;
+  line-height:1.125rem;
+  margin-bottom:.375rem;
+  padding-top:0;
+  font-weight:400;
+  font-family:FS Albert,Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-weight:600;
+}
+
+.information-panel--dismissible .information-panel__title{
+  padding-right:2.5rem;
+}
+
+.information-panel__content{
+  margin-bottom:.1875rem;
+}
+
+.information-panel__content,.information-panel__content *,.information-panel__link{
+  font-size:.875rem;
+  line-height:1.125rem;
+}
+
+.information-panel__link{
+  border-color:#333f48;
+  color:#333f48;
+}
+
+.information-panel__link:active,.information-panel__link:focus,.information-panel__link:hover,.information-panel__link:visited{
+  border:0;
+  color:#333f48;
+}
+
+@media print,screen and (min-width:48em){
+  .information-panel.information-panel--error,.information-panel.information-panel--info,.information-panel.information-panel--success,.information-panel.information-panel--warning{
+    padding-right:2.5rem;
+  }
+}
+
+
+/*# sourceMappingURL=information-panel.css.map*/
